@@ -36,11 +36,11 @@ The dataset includes:
    - Identify **factors influencing term deposit subscription**.  
 
 3️⃣ **Model Development & Training**  
-   - Train models: **Logistic Regression, Decision Tree, Random Forest, XGBoost**.  
+   - Train models: **Random Forest, XGBoost**.  
    - Use **cross-validation and hyperparameter tuning**.  
 
 4️⃣ **Performance Evaluation**  
-   - Assess models using **Accuracy, Precision, Recall, F1-score, and AUC-ROC**.  
+   - Assess models using **Accuracy, Precision, Recall,and F1-score**.  
    - Handle **class imbalance** using resampling techniques.  
 
 5️⃣ **Insights & Recommendations**  
@@ -51,25 +51,17 @@ The dataset includes:
 
 ## 📊 Key Insights  
 📌 **Who are the most likely customers to subscribe to a term deposit?**  
-   - Customers with **higher education levels and stable financial status** are more likely to subscribe.  
 
 📌 **Which marketing strategy is most effective?**  
-   - Personalized and **direct marketing campaigns** outperform general approaches.  
 
 📌 **Which model performed best?**  
-   - **XGBoost achieved the highest accuracy**, with an AUC-ROC of **X.X**.  
 
 ---
 
 ## 🖥️ Technologies Used  
-- **Python** (pandas, numpy, scikit-learn, imbalanced-learn, matplotlib, seaborn)  
-- **Machine Learning Algorithms** (Logistic Regression, Decision Tree, XGBoost)  
+- **Python** (pandas, numpy, scikit-learn, matplotlib, seaborn)  
+- **Machine Learning Algorithms** (Random Forest, XGBoost)  
 - **Data Resampling Techniques** (SMOTE, oversampling, undersampling)  
 - **Jupyter Notebook for Analysis & Visualization**  
 
 ---
-
-## 📥 How to Use  
-1️⃣ Clone the repository:  
-   ```sh
-   git clone https://github.com/your-username/Banking-Dataset-Analysis.git
